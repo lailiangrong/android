@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mainpage.Main2Activity"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@drawable/shopday"
+        />
+
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="440dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:padding="5dp">
+        <Button
+            android:id="@+id/btn_firstpage"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/first"
+            />
+
+        <TextView
+            android:id="@+id/txt_backkey"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="15dp"
+            android:text="首页"
+            android:layout_below="@+id/btn_firstpage"
+            android:textSize="10sp"
+            />
+
+        <Button
+            android:id="@+id/btn_jingpin"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="35dp"
+            android:layout_toRightOf="@+id/btn_firstpage"
+            android:background="@drawable/seriouschoose" />
+
+
+        <Button
+            android:id="@+id/btn_member"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="35dp"
+            android:layout_toRightOf="@+id/btn_jingpin"
+            android:background="@drawable/vip" />
+
+        <TextView
+            android:id="@+id/txt_member"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/btn_member"
+            android:layout_marginLeft="110dp"
+            android:layout_toRightOf="@+id/txt_backkey"
+            android:text="会员"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_shopping"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="35dp"
+            android:layout_toRightOf="@+id/btn_member"
+            android:background="@drawable/shopcar" />
+
+        <TextView
+            android:id="@+id/txt_shopping"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/btn_member"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/txt_member"
+            android:text="购物车"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_my"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="52dp"
+            android:layout_toRightOf="@+id/btn_shopping"
+            android:background="@drawable/my" />
+
+        <TextView
+            android:id="@+id/txt_my"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/btn_my"
+            android:layout_marginLeft="38dp"
+            android:layout_toRightOf="@+id/txt_shopping"
+            android:text="我的"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>
